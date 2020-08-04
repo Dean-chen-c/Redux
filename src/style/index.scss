@@ -1,0 +1,32 @@
+body {
+  padding: 30px;
+  background: #fff;
+}
+.list {
+  margin-top: 30px;
+  max-height: 200px;
+  background-color: #fff;
+  overflow-y: auto;
+  li {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+}
+.box {
+  margin: 0 auto;
+  width: 800px;
+}
+.tool {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+.input {
+  padding: 0 20px;
+  width: 500px;
+  line-height: 50px;
+  font-size: 16px;
+}
+.btn {
+  padding: 10px 20px;
+}
