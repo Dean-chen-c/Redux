@@ -10,7 +10,7 @@ export default function Tool() {
   const list = $('list');
 
   input.addEventListener('keydown', (e) => {
-    if (e.charCode === 0 && e.keyCode === 13) {
+    if (e.charCode === 0 && e.keyCode === 13 && input.value !== '') {
       e.preventDefault();
       dispatch(addTodo(input.value));
       input.value = '';
